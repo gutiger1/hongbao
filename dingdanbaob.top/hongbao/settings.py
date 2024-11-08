@@ -221,19 +221,7 @@ AGISO_APP_SECRET = 'uw657twb4man46u27sa85y2ampesmbyv'
 WECHAT_APP_ID = 'wxb5b1322aaf1cd850'
 WECHAT_APP_SECRET = 'fdd43dad5612449c5cfb945e48b36b9b'
 # 下面是测试微信公众号信息e
-# WECHAT_APP_ID = 'wxadb6a050e99b3fe8'
-# WECHAT_APP_SECRET = '2325a9d61031cc8edf2d93b3f361e5e3'
 
-
-WECHAT_PAY = {
-    'mch_id': '1685081744',  # 商户号
-    'api_key': '1314521tian1314521tian1314521tia',  # APIv3密钥
-    'appid': 'wxadb6a050e99b3fe8',  # 商户APPID
-    'cert_path': os.path.join(BASE_DIR, 'certs/apiclient_cert.pem'),  # 商户证书路径
-    'key_path': os.path.join(BASE_DIR, 'certs/apiclient_key.pem'),  # 商户私钥路径
-    'serial_no': '7030736BBD387A0B0156E47DD8F0C0F33E08E45C',  # APIv3证书序列号
-    'notify_url': 'https://dingdanbaob.top/notify/',  # 微信支付结果通知的回调地址
-}
 
 # 发送邮箱验证码所需s
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
