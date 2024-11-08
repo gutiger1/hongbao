@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Claim Order</title>
+</head>
+<body>
+    <h1>Claim Order</h1>
+    <form method="post" action="{% url 'claim_order' %}">
+        {% csrf_token %}
+        <label for="order_number">Order Number:</label>
+        <input type="text" id="order_number" name="order_number">
+        <button type="submit">Claim</button>
+    </form>
+</body>
+</html>
