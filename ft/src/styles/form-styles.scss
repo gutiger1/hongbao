@@ -1,0 +1,54 @@
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .demo-form-inline {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+  
+  .demo-form-inline .el-form-item {
+    margin-right: 10px;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .demo-form-inline .el-input,
+  .demo-form-inline .el-select,
+  .demo-form-inline .el-button {
+    height: 32px;
+    line-height: 32px;
+  }
+  
+  .demo-form-inline .el-input__inner,
+  .demo-form-inline .el-select__inner {
+    height: 32px;
+    line-height: 32px;
+    padding: 0 10px;
+  }
+  
+  .dialog-footer {
+    text-align: right;
+  }
+  
+  .add-order-button {
+    height: 32px;
+    line-height: 32px;
+    padding: 0 15px;
+  }
+  
+  .el-button--primary {
+    height: 32px;
+    line-height: 32px;
+  }
+  
+  .action-button {
+    height: 32px; /* 确保所有按钮高度一致 */
+  }
+  
